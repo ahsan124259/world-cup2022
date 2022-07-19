@@ -1,0 +1,162 @@
+.body {
+    box-sizing: border-box;
+    margin-right: 20px;
+
+}
+
+
+
+.container-header {
+    margin: 10px 20px;
+    background-color: black;
+
+}
+
+.part-1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 50%;
+}
+
+#header-text {
+    align-items: center;
+    width: 100%;
+    padding-left: 35px;
+}
+
+.heading-1 {
+    color: white;
+    font-size: 700;
+    padding-top: 50px;
+}
+
+.para-1 {
+    color: white;
+
+}
+
+button {
+    background-color: red;
+    padding-left: 80px 20px;
+    font-size: 400;
+
+}
+
+#header-img {
+    width: 100%;
+    padding-left: 40px;
+
+}
+
+.pic-1 {
+
+    align-items: center;
+
+}
+
+.part-2 {
+    height: 500px;
+    width: 300px;
+}
+
+
+
+.body-separate {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+
+
+
+}
+
+.card-left {
+    height: 150px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+#p-1 {
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid;
+    font-size: 200;
+
+}
+
+#p-2 {
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid;
+}
+
+#p-3 {
+    padding: 5px 10px;
+    background-color: red;
+    border: 1px solid;
+}
+
+.card-right {
+    display: flex;
+    justify-items: center;
+    background-color: red;
+    padding: 5px;
+    width: 5px;
+    margin-left: 50px;
+}
+
+.card-box-1 {
+    background-color: lightcyan;
+    border: 1px solid;
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-box-2 {
+    background-color: lightcyan;
+    border: 1px solid;
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-box-3 {
+    background-color: lightcyan;
+    border: 1px solid;
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    margin-50px 20px;
+    padding: 100px 10px;
+
+}
+
+.footer-top h1 {
+    color: white;
+    text-align: center;
+
+}
+
+hr {
+    margin-right: 50px;
+    margin-left: 50px;
+    color: aqua;
+}
+
+.footer-down {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.footer-down a {
+    text-decoration: none;
+    color: white;
+}
