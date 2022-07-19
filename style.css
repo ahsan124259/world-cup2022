@@ -1,57 +1,70 @@
 .body {
     box-sizing: border-box;
     margin-right: 20px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
 
 }
 
-
-
+/*-----Headerpart----*/
 .container-header {
-    margin: 10px 20px;
+    margin: 80px 40px;
     background-color: black;
+    border: 0;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 
 }
 
-.part-1 {
+.header-flex {
     display: flex;
     justify-content: space-between;
     align-content: center;
     width: 50%;
 }
 
-#header-text {
+#flex-left {
     align-items: center;
     width: 100%;
-    padding-left: 35px;
+    padding-left: 50px;
+    margin-top: 50px;
+
+
 }
 
-.heading-1 {
-    color: white;
+.heading {
+    color: whitesmoke;
     font-size: 700;
     padding-top: 50px;
 }
 
-.para-1 {
+.details-heading {
     color: white;
+    font-display: center;
 
 }
 
-button {
-    background-color: red;
-    padding-left: 80px 20px;
-    font-size: 400;
+.button {
+    background-color: rgb(238, 16, 16);
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 200px;
 
 }
 
-#header-img {
-    width: 100%;
-    padding-left: 40px;
+#flex-right {
+    width: 10%;
+    padding-left: 20px;
 
 }
 
-.pic-1 {
-
-    align-items: center;
+#flex-right img {
+    margin-right: 20px;
+}
 
 }
 
@@ -60,81 +73,119 @@ button {
     width: 300px;
 }
 
+/*Heading part End....*/
 
+/* section part Start...*/
+.container-body {
+    margin-top: 50px;
+
+}
 
 .body-separate {
     display: flex;
     justify-content: flex-start;
     margin-left: 50px;
-
-
-
 }
 
 .card-left {
-    height: 150px;
+    height: 300px;
     width: 200px;
     background-color: aqua;
     border: 2px solid black;
 }
 
-#p-1 {
-    padding: 5px 10px;
+#box-1 {
+    margin-top: 10px;
+    padding: 20px 10px;
     background-color: white;
     border: 1px solid;
     font-size: 200;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
 
 }
 
-#p-2 {
-    padding: 5px 10px;
+#box-2 {
+    margin-top: 30px;
+    padding: 20px 10px;
     background-color: white;
     border: 1px solid;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+
 }
 
-#p-3 {
-    padding: 5px 10px;
+#box-3 {
+    margin-top: 50px;
+    padding: 20px 10px;
     background-color: red;
     border: 1px solid;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: 500;
+
 }
 
 .card-right {
     display: flex;
     justify-items: center;
-    background-color: red;
+    
     padding: 5px;
     width: 5px;
     margin-left: 50px;
 }
 
 .card-box-1 {
-    background-color: lightcyan;
+   
     border: 1px solid;
     padding: 2px;
     font-size: 15px;
     text-align: center;
+
 }
 
 .card-box-2 {
-    background-color: lightcyan;
+   
     border: 1px solid;
     padding: 2px;
     font-size: 15px;
     text-align: center;
 }
 
+
 .card-box-3 {
-    background-color: lightcyan;
+    
     border: 1px solid;
     padding: 2px;
     font-size: 15px;
     text-align: center;
 }
+.card-box-3 a{
+    border: 1px solid;
+    padding: 5px 5px;
+    text-decoration: none;
+   border-radius: 5px;
+}
+.card-box-3 p{
+  font-size: larger;
+    
+}
+
+
+/* Section Part-End*/
+/*start footersection---*/
+
 
 .footer {
     background-color: black;
-    margin-50px 20px;
-    padding: 100px 10px;
+    margin: 50px 50px;
+    padding: 100px 50px;
 
 }
 
