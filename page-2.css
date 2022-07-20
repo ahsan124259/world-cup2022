@@ -1,0 +1,218 @@
+.container-heading {
+    background-color: black;
+    padding-left: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.heading-flex {
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 50%;
+}
+
+.flex-left {
+    margin-top: 50px;
+    padding-left: 50px;
+    align-items: center;
+    width: 50%;
+}
+
+.flex-left h1 {
+    color: white;
+}
+
+.flex-left p {
+    color: white;
+}
+
+.flex-left a {
+    background-color: red;
+    padding-top: 12px;
+    padding-right: 15px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.flex-right {
+    margin-top: 50px;
+    padding-left: 50px;
+    width: 50%;
+}
+
+.flex-right img {
+    align-items: flex-end;
+    margin-left: 200px;
+}
+
+/*section start*/
+.section-two {
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.section-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+}
+
+.sec-left-side {
+    border: 2px solid yellow;
+    background-color: aqua;
+    width: 50%;
+}
+
+#box-1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+#box-2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#box-3 {
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.section-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#card-group {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    justify-content: space-between;
+}
+
+#card-1 {
+
+    padding: left 15px;
+    padding-right: 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+
+}
+
+#card-2 {
+
+    padding: left 15px;
+    padding-right: 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#card-3 {
+
+    padding: left 15px;
+    padding-right: 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#card-4 {
+
+    padding: left 15px;
+    padding-right: 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#card-5 {
+    padding: left 15px;
+    padding-right: 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#card-6 {
+    padding: left 15px;
+    padding-right: 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: black;
+    margin: 50px 50px;
+    padding: 100px 50px;
+
+}
+
+.Footer-top h1 {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    margin-right: 50px;
+    margin-left: 50px;
+    color: aqua;
+}
+
+.footer-down {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.footer-down a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+
+@media only screen and(max-width:599px) {
+    .card-group {
+        background-color: green;
+        grid-template-columns: repeat(1 1fr);
+    }
+
+    .body {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width:688px)and (max-width:992px) {
+    .card-group {
+        background-color: yellow;
+        grid-template-columns: 2 1fr;
+
+    }
+}
